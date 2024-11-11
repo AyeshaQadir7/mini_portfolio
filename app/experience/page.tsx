@@ -73,6 +73,22 @@ function experience() {
                             </div>
                         </div>
 
+                        <div className="ex-div">
+                            <div><i className="fa-solid fa-check"></i></div>
+                            <div>
+                                <h4>Shadcn UI</h4>
+                                <p>Experienced</p>
+                            </div>
+                        </div>
+
+                        <div className="ex-div">
+                            <div><i className="fa-solid fa-check"></i></div>
+                            <div>
+                                <h4>Figma</h4>
+                                <p>Experienced</p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 

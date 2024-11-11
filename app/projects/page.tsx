@@ -5,12 +5,7 @@ import Link from 'next/link'
 function projects() {
     return (
         <section id="Projects">
-            <a href="#Projects" className="arrow"
-            >
-                <Image src="/assets/image.png" alt="" className="icon1"
-                    width={100}
-                    height={100}
-                /></a>
+
             <p className="heading-p">Browse My Recent</p>
             <h1 className="heading">Projects</h1>
             <div className="container project-container">
@@ -24,8 +19,8 @@ function projects() {
                     />
                     <h3>Project 1</h3>
                     <div className="header-action-area">
-                        <Link href="https://github.com/AyeshaQadir7/Banquee-SaaS-Bank-Website" className="btn">GitHub</Link>
-                        <Link href="https://banquee-ayeshaqadir.vercel.app/" className="btn">Live Demo</Link>
+                        <Link href="https://github.com/AyeshaQadir7/Banquee-SaaS-Bank-Website" target='_blank' className="btn">GitHub</Link>
+                        <Link href="https://banquee-ayeshaqadir.vercel.app/" target='_blank' className="btn">Live Demo</Link>
                     </div>
                 </div>
 
@@ -36,11 +31,11 @@ function projects() {
                         width={100}
                         height={100}
                     />
-                    <h3>Project 1</h3>
+                    <h3>Project 2</h3>
 
                     <div className="header-action-area">
-                        <Link href="https://github.com/AyeshaQadir7/InnoWeb" className="btn">GitHub</Link>
-                        <Link href="https://innoweb-ayeshaqadir.vercel.app/" className="btn">Live Demo</Link>
+                        <Link href="https://github.com/AyeshaQadir7/InnoWeb" target='_blank' className="btn">GitHub</Link>
+                        <Link href="https://innoweb-ayeshaqadir.vercel.app/" target='_blank' className="btn">Live Demo</Link>
                     </div>
                 </div>
 
@@ -51,10 +46,10 @@ function projects() {
                         width={100}
                         height={100}
                     />
-                    <h3>Project 1</h3>
+                    <h3>Project 3</h3>
                     <div className="header-action-area">
-                        <Link href="https://github.com/AyeshaQadir7/Hackathon_minus_one" className="btn">GitHub</Link>
-                        <Link href="https://hackathonminusonemilestone05.vercel.app/" className="btn">Live Demo</Link>
+                        <Link href="https://github.com/AyeshaQadir7/Hackathon_minus_one" target='_blank' className="btn">GitHub</Link>
+                        <Link href="https://hackathonminusonemilestone05.vercel.app/ " target='_blank' className="btn">Live Demo</Link>
                     </div>
                 </div>
             </div>

@@ -12,7 +12,7 @@ function page() {
           <div className="header-left">
 
             <Image
-              src="/assets/main.png"
+              src="/assets/mainimg.png"
               alt=""
               width={400}
               height={400}
@@ -21,7 +21,7 @@ function page() {
 
           <div className="header-right">
             <p><b>Hello I&apos;m</b></p>
-            <h1>Ayesha </h1>
+            <h1>Ayesha</h1>
             <h2>Front-End Developer</h2>
 
             <div className="header-action-area">
@@ -42,6 +42,7 @@ function page() {
                 <i className="fa-brands fa-github"></i></Link>
             </div>
           </div>
+          
         </div>
       </header>
 

@@ -27,21 +27,23 @@ function Navbar() {
                     </ul>
                 </div>
             </nav>
+
             <nav id="hamburger-nav">
                 <Link href="/" className="logo">Ayesha Abdul Qadir</Link>
                 <div className="hamburger-menu">
-                    {/* Corrected onClick */}
                     <div className="hamburger-icon" onClick={toggleMenu}>
                         <span></span>
                         <span></span>
                         <span></span>
                     </div>
+
                     <div className="menu-links">
                         <li><Link href="/about" onClick={toggleMenu}>About</Link></li>
                         <li><Link href="/experience" onClick={toggleMenu}>Experience</Link></li>
                         <li><Link href="/projects" onClick={toggleMenu}>Projects</Link></li>
                         <li><Link href="/contact" onClick={toggleMenu}>Contact</Link></li>
                     </div>
+
                 </div>
             </nav>
         </div >

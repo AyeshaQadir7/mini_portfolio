@@ -1,21 +1,9 @@
-import Link from 'next/link'
 import React from 'react'
-import Image from 'next/image'
 
 function experience() {
     return (
         <section id="Experiences">
 
-            <Link href="#Experiences" className="arrow"
-            >
-                <Image
-                    src="/assets/image.png"
-                    alt="image"
-                    className="icon1"
-                    width={100}
-                    height={100}
-                />
-            </Link>
             <p className="heading-p">Explore My</p>
             <h1 className="heading">Experience</h1>
 
